@@ -2,7 +2,7 @@
 
 **Stir Trek 2026** · AMC Easton, Columbus, OH · May 1, 2026
 
-[▶ Watch the recording](https://www.youtube.com/watch?v=Dwg9FyWeezU&list=PLaHMqLt8nxCx3TgokegypUH5_K0_kVpXA&index=15) · [Slides (PDF)](./slides.pdf) · [Transcript](./transcript.md)
+[▶ Watch the recording](https://youtu.be/Dwg9FyWeezU?si=TA5TcICXv9Na8yFn) · [Slides (PDF)](./slides.pdf) · [Transcript](./transcript.md)
 [Conference site](https://stirtrek.com/) · [Session page at Stir Trek](https://stirtrek.com/speakers/2026/Chris-Birie.html)
 
 Most data pipelines don't fail on day one. They fail months later — the schema changed, a backfill double-counted half a table, the person who built it has moved on, and nobody can explain why last Tuesday's numbers are wrong.

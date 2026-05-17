@@ -8,6 +8,6 @@ This is where my talks live. One folder per talk: slides, the recording, and any
 
 | Talk | Event | Date | Video | Materials |
 |---|---|---|---|---|
-| Designing Data Pipelines That Don't Hate You Six Months Later | Stir Trek 2026 | 2026-05-01 | [Watch](https://www.youtube.com/watch?v=Dwg9FyWeezU&list=PLaHMqLt8nxCx3TgokegypUH5_K0_kVpXA&index=15) | [Slides + details](./talks/2026-05-stir-trek/) |
+| Designing Data Pipelines That Don't Hate You Six Months Later | Stir Trek 2026 | 2026-05-01 | [Watch](https://youtu.be/Dwg9FyWeezU?si=TA5TcICXv9Na8yFn) | [Slides + details](./talks/2026-05-stir-trek/) |
 
 More on the way — I've got submissions out to a couple of conferences for later in 2026.
