@@ -102,3 +102,34 @@ footer a { color: $gray !important; }
   margin-bottom: 1.75rem;
 }
 .brand-center { text-align: center; }
+
+/* ============================================================
+   Desktop layout — the stock minimal theme caps content at
+   ~560px (reads like mobile). Widen the wrapper + content.
+   ============================================================ */
+.wrapper { width: auto !important; max-width: 1180px; }
+
+@media print, screen and (min-width: 960px) {
+  .wrapper { width: 1180px !important; max-width: 1180px; }
+  header   { width: 290px !important; }
+  section  { width: 820px !important; }
+  footer   { width: 290px !important; }
+}
+
+@media screen and (min-width: 1400px) {
+  .wrapper { width: 1320px !important; max-width: 1320px; }
+  section  { width: 950px !important; }
+}
+
+/* tablet / mid widths: use the space instead of a narrow column */
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  .wrapper { width: 92% !important; max-width: 900px; }
+  header, section, footer { width: 100% !important; float: none !important; }
+}
+
+section {
+  padding-bottom: 2rem;
+  p, li { max-width: 70ch; }   /* comfortable reading measure */
+}
+table { max-width: 100%; }
+
