@@ -10,3 +10,5 @@ Most data pipelines don't fail on day one. They fail months later — the schema
 This talk is about the design choices that decide which of those futures you get: schema evolution, idempotency, observability, testability, and designing for change. None of it is a slogan. It's a set of concrete decisions you make early, before the pipeline has any data worth breaking.
 
 My first conference talk — part of the [Stir Trek 2026 playlist](https://www.youtube.com/playlist?list=PLaHMqLt8nxCx3TgokegypUH5_K0_kVpXA).
+
+Sadukie (Sarah Dutkiewicz) wrote it up in the [NimblePros Stir Trek 2026 recap](https://blog.nimblepros.com/blogs/stir-trek-2026-recap/).
