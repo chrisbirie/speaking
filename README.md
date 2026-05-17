@@ -1,6 +1,6 @@
 # Speaking
 
-I'm Chris Birie, a senior data and solutions architect in Columbus, Ohio. I speak about building data pipelines and platforms that hold up over time — and what it takes to make a whole engineering team faster instead of shipping one more system that someone has to babysit.
+I'm Chris Birie, a senior data and solutions architect in Columbus, Ohio. I speak about designing systems that survive contact with reality, the engineering practices that keep them that way, and what it takes to make a whole team faster instead of shipping one more thing somebody has to babysit. The specifics shift talk to talk — data, platforms, developer tooling, the way teams actually work — but it's the same thread every time: build for the problem you'll have in six months, not just the one in front of you.
 
 This is where my talks live. Each one has its own page with the slides, the recording, and any resources that go with it.
 
