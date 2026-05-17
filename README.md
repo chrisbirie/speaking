@@ -1,3 +1,6 @@
+<img src="assets/wordmark.png" alt="chris birie" class="brand-wordmark">
+<span class="brand-motto">Be Curious, Not Judgmental</span>
+
 # Speaking
 
 I'm Chris Birie, a senior data and solutions architect in Columbus, Ohio. I speak about designing systems that survive contact with reality, the engineering practices that keep them that way, and what it takes to make a whole team faster instead of shipping one more thing somebody has to babysit. The specifics shift talk to talk — data, platforms, developer tooling, the way teams actually work — but it's the same thread every time: build for the problem you'll have in six months, not just the one in front of you.

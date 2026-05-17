@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Chris Birie — Speaking
 description: Conference talks on data architecture, pipelines, and DataOps
+logo: /assets/portrait.jpg
+show_downloads: false

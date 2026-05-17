@@ -1,3 +1,5 @@
+<a href="../../"><img src="../../assets/wordmark.png" alt="chris birie — home" class="brand-wordmark" style="max-width:240px;width:55%;"></a>
+
 # Designing Data Pipelines That Don't Hate You Six Months Later
 
 **Stir Trek 2026** · AMC Easton, Columbus, OH · May 1, 2026

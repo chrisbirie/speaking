@@ -1,0 +1,104 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Permanent+Marker&display=swap');
+
+@import "{{ site.theme }}";
+
+/* ============================================================
+   chris birie — brand overrides
+   Palette: Ink #151512 · Cream #F4EFE6 · Signal Red #BE371D · Gray #3A3A38
+   Type: Archivo Black (display) · Inter (body) · Permanent Marker (motto)
+   ============================================================ */
+
+$ink:   #151512;
+$cream:  #F4EFE6;
+$red:    #BE371D;
+$gray:   #3A3A38;
+
+body {
+  background-color: $cream !important;
+  color: $ink !important;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+header h1 {
+  font-family: 'Archivo Black', 'Arial Black', sans-serif !important;
+  color: $ink !important;
+  letter-spacing: -0.01em;
+}
+
+a            { color: $red !important; text-decoration: none; }
+a:hover      { color: darken($red, 12%) !important; text-decoration: underline; }
+
+header {
+  p.view a   { color: $red !important; }
+  img        { max-width: 100%; }
+}
+
+/* talks / content tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  background: $ink;
+  color: $cream;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 12px;
+}
+td {
+  border-bottom: 1px solid rgba($ink, 0.18);
+  padding: 8px 12px;
+}
+tr:last-child td { border-bottom: 1px solid rgba($ink, 0.18); }
+
+hr {
+  border: 0;
+  height: 2px;
+  background: $red;
+  opacity: 0.55;
+  margin: 2rem 0;
+}
+
+blockquote {
+  border-left: 4px solid $red;
+  color: rgba($ink, 0.85);
+}
+
+code, pre, tt {
+  background: rgba($ink, 0.06);
+  color: $ink;
+  border-radius: 4px;
+}
+pre { padding: 12px; overflow-x: auto; }
+
+footer {
+  color: $gray !important;
+  border-top: 1px solid rgba($ink, 0.15);
+  font-size: 13px;
+}
+footer a { color: $gray !important; }
+
+/* brand pieces used in page content */
+.brand-wordmark {
+  display: block;
+  max-width: 360px;
+  width: 70%;
+  margin: 0.5rem auto 0.25rem;
+}
+.brand-motto {
+  display: block;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: $red;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.75rem;
+}
+.brand-center { text-align: center; }
